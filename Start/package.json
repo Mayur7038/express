@@ -1,0 +1,24 @@
+{
+  "name": "Start",
+  "version": "1.0.0",
+  "description": "first install the typescript npm install -g typescript = tsc --version    it  stand for typsctipt compiler",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.14.6",
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.21",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

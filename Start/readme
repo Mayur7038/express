@@ -1,0 +1,39 @@
+first install the typescript
+npm install -g typescript = tsc --version 
+  it  stand for typsctipt compiler
+
+npm install -g ts-node   
+
+package.json contain project configuration
+-------------->  to create npm init -y
+
+tsconfig.json it is typescript config file which take care of which version of js it it converting
+-------------->  to create tsc --init 
+
+
+it gives us type defination for node js
+--------------> npm install @types/node
+
+it gives us type defination for express
+--------------> npm install @types/express
+
+to get dist folder --------> npx tsc
+
+
+devDependencies are those packages in the package.json file that you need only for project development purposes
+
+npm i -D nodemon for nodemon for development purpose
+
+
+
+
+
+
+
+
+
+
+
+// run npm run build first
+
+https://blog.logrocket.com/how-to-set-up-node-typescript-express/
